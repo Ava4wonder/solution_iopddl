@@ -1,5 +1,8 @@
 Supplemental materials (i.e., utilities and benchmarks) for [**The ASPLOS 2025 / EuroSys 2025 Contest on Intra-Operator Parallelism for Distributed Deep Learning**](https://github.com/asplos-contest/2025/blob/main/IOPDDL.md).
 
+## Original folder
+https://github.com/google/iopddl
+
 ## Example Usage
 
 ```
