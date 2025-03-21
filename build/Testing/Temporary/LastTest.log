@@ -1,0 +1,56 @@
+Start testing: Jan 22 16:13 CET
+----------------------------------------------------------
+1/1 Testing: iopddl_test
+1/1 Test: iopddl_test
+Command: "/Users/ava/Downloads/iopddl/build/iopddl_test"
+Directory: /Users/ava/Downloads/iopddl/build
+"iopddl_test" start time: Jan 22 16:13 CET
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[==========] Running 10 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from EvaluateTest
+[ RUN      ] EvaluateTest.LegalSolution
+[       OK ] EvaluateTest.LegalSolution (0 ms)
+[ RUN      ] EvaluateTest.LegalSolutionNoUsageLimit
+[       OK ] EvaluateTest.LegalSolutionNoUsageLimit (0 ms)
+[ RUN      ] EvaluateTest.IllegalSolutionEclipsesUsageLimit
+[       OK ] EvaluateTest.IllegalSolutionEclipsesUsageLimit (0 ms)
+[ RUN      ] EvaluateTest.IllegalSolutionHasTooManyTerms
+[       OK ] EvaluateTest.IllegalSolutionHasTooManyTerms (0 ms)
+[ RUN      ] EvaluateTest.IllegalSolutionHasTooFewTerms
+[       OK ] EvaluateTest.IllegalSolutionHasTooFewTerms (0 ms)
+[ RUN      ] EvaluateTest.IllegalSolutionHasNegativeStrategyIndex
+[       OK ] EvaluateTest.IllegalSolutionHasNegativeStrategyIndex (0 ms)
+[ RUN      ] EvaluateTest.IllegalSolutionHasBogusStrategyIndex
+[       OK ] EvaluateTest.IllegalSolutionHasBogusStrategyIndex (0 ms)
+[----------] 7 tests from EvaluateTest (0 ms total)
+
+[----------] 1 test from ReadProblemTest
+[ RUN      ] ReadProblemTest.ExampleFile
+[       OK ] ReadProblemTest.ExampleFile (0 ms)
+[----------] 1 test from ReadProblemTest (0 ms total)
+
+[----------] 2 tests from SolveTest
+[ RUN      ] SolveTest.FindsOptimalSolution
+# Found solution [0, 1, 0, 0, 0] with cost 525
+# Found solution [0, 1, 2, 0, 0] with cost 495
+# Found solution [0, 0, 2, 1, 0] with cost 445
+[       OK ] SolveTest.FindsOptimalSolution (1000 ms)
+[ RUN      ] SolveTest.NoSolutionFound
+[       OK ] SolveTest.NoSolutionFound (1000 ms)
+[----------] 2 tests from SolveTest (2000 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 3 test suites ran. (2000 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   2.37 sec
+----------------------------------------------------------
+Test Passed.
+"iopddl_test" end time: Jan 22 16:13 CET
+"iopddl_test" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Jan 22 16:13 CET

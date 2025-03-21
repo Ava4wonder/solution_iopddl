@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250204-1546-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="tsf-428-wpa-3-235.epfl.ch"
+	OSRelease="14.1"
+	OSVersion="23B74"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M2 Pro"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="9216"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="12"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Feb 04 16:46 CET</StartDateTime>
+		<StartTestTime>1738683984</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 04 16:46 CET</EndDateTime>
+		<EndTestTime>1738683984</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
